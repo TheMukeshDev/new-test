@@ -1,0 +1,19 @@
+{
+  "name": "my-awesome-webapp",
+  "version": "1.0.0",
+  "description": "A demo web app with GitHub Actions CI/CD",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint *.js",
+    "lint:fix": "eslint *.js --fix",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": ["web", "demo", "github-actions"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0"
+  }
+}
